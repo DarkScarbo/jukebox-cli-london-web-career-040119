@@ -49,14 +49,14 @@ def run (songs)
     when "help"
       help
     when "play"
-      play()
+      play
     when "list"
       list(songslist)
     when "exit"
-      exit_jukebox()
+      exit_jukebox
       break
     else
-      invalid_command()
+      invalid_command
     end
   end
 end
