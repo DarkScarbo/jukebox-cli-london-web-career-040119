@@ -61,4 +61,22 @@ def run (songs)
       break  
     end
   end
+    loop do
+    puts "Please enter a command:"
+    cmd = gets.chomp
+
+    case cmd
+    when "help"
+      help()
+    when "play"
+      play()
+    when "list"
+      list(songslist)
+    when "exit"
+      exit_jukebox()
+      break
+    else
+      invalid_command()
+    end
+  end
 end
