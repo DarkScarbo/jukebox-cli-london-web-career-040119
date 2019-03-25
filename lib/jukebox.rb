@@ -52,7 +52,7 @@ def run (songs)
       play(songs)
       puts "Please enter a command:"
       ans = gets.chomp
-    elsif input == "help"
+    elsif ans == "help"
       help
       puts "Please enter a command:"
       ans = gets.chomp
