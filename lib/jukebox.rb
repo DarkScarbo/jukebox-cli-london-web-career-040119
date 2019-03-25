@@ -47,7 +47,7 @@ def run (songs)
 
     case ans
     when "help"
-      help()
+      help
     when "play"
       play()
     when "list"
